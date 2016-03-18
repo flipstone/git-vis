@@ -1,0 +1,105 @@
+html {
+  background-color: #e7e7e7;
+  font-size: 16pt;
+  font-family: 'Roboto Mono', monospace;
+  padding: 0;
+  color: #3a3f39;
+}
+
+body {
+  padding: 0;
+  margin: 0;
+}
+
+blockquote {
+  padding: 10px;
+  margin: 5pt;
+}
+
+.welcome {
+  margin: 5pt auto;
+  width: 500pt;
+}
+
+.popover {
+  position: fixed;
+  bottom: 0;
+  padding: 10pt;
+}
+
+.popover.right {
+  right: 0;
+}
+
+.popover, blockquote {
+  color: #9af87d;
+  background-color: rgba(18, 18, 18, 0.77);
+  box-shadow: 0 0 2pt 1pt rgba(18, 18, 18, 0.77);
+}
+
+.navbar {
+  padding: 8pt 0;
+  background-color: rgba(18, 18, 18, 0.77);
+  color: #c9c9c9;
+  margin-bottom: 8pt;
+  font-size: 18pt;
+  font-weight: 700;
+  border-bottom: 2pt solid black;
+}
+
+.navbar .navitem {
+  margin-left: 15pt;
+}
+
+.navbar .navitem:hover {
+  color: #9af87d;
+}
+
+.list > *:nth-child(even) {
+  background-color: #f3f3f3;
+}
+
+.row {
+  display: block;
+  padding: 4pt 0;
+}
+
+.row:hover {
+  color: #9af87d;
+  background-color: rgba(18, 18, 18, 0.77);
+}
+
+.headers {
+  font-weight: bold;
+  color: #1a1a1a;
+  margin-bottom: 5pt;
+}
+
+.cell {
+  display: inline-block;
+  padding: 0 10pt;
+}
+
+.cell.sha {
+  width: 420pt;
+}
+
+.cell.name {
+  width: 250pt;
+}
+
+.cell.type {
+  width: 60pt;
+}
+
+.cell.size {
+  width: 30pt;
+}
+
+.code {
+  white-space: pre;
+}
+
+text {
+  font-size: 16px;
+}

@@ -1,0 +1,8 @@
+dev:
+  image: haskell:7.10.3
+  volumes:
+    - .:/git-vis
+  working_dir: /git-vis
+  ports:
+    - 8023:8023
+
